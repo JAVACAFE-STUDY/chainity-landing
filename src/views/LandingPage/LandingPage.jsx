@@ -55,12 +55,12 @@ class LandingPage extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem xs={12} sm={12} md={6}>
-                <h1 className={classes.title}>Blockchain과 Community가 만나다!</h1>
-                <h4>
-                  <b>Chainity</b>는 Blockchain + Community의 합성어로
-                  <br />
-                  <b>블록체인 기반의 커뮤니티 활동 보상 플랫폼</b> 입니다.
-                </h4>
+                  <div className={classes.title}>
+                      Blockchain과 <br/> Community가 만나다!
+                  </div>
+                <div className={classes.subtitle}>
+                  <b>Chainity</b>는 Blockchain + Community의 합성어로 <b>블록체인 기반의 커뮤니티 활동 보상 플랫폼</b> 입니다.
+                </div>
                 <Button
                   color="success"
                   size="lg"

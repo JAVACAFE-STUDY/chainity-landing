@@ -8,18 +8,20 @@ const landingPageStyle = {
   },
   title: {
     ...title,
+    fontSize: "1.82em",
     display: "inline-block",
     position: "relative",
-    marginTop: "30px",
-    minHeight: "32px",
     color: "#FFFFFF",
-    textDecoration: "none"
+    textDecoration: "none",
+    marginBottom: '1.5em',
+    lineHeight: "1.2em"
   },
   subtitle: {
     fontSize: "1.313rem",
-    maxWidth: "500px",
-    margin: "10px auto 0"
-  },
+    margin: "0 1.5em 1.5em 0",
+    maxWidth: '455px',
+    lineHeight: "1.2em"
+},
   main: {
     background: "#FFFFFF",
     position: "relative",
