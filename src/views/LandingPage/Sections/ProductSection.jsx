@@ -20,7 +20,7 @@ class ProductSection extends React.Component {
       <div className={classes.section}>
         <GridContainer justify="center">
           <GridItem xs={12} sm={12} md={8}>
-            <h2 className={classes.title}>Let's talk product</h2>
+            <div className={classes.title}>Let's talk product</div>
             <h5 className={classes.description}>
               커뮤니티 멤버의 활동 또는 참여를 독려하기 위한 핵심 요소는 각 커뮤니티 멤버의 기여도를 일관되게 반영할 수 있는 공정한 회계 제도입니다. CHAINITY는 커뮤니티 활동에 대한 개인 기여도를 정확하고 투명하게 보상하고자 블록체인 기반으로 제공되는 서비스입니다.
             </h5>
